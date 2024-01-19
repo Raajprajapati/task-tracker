@@ -1,0 +1,108 @@
+
+.task{
+    background-color: #ffffff;
+    margin: 10px auto;
+    width: 800px;
+    padding: 10px 15px;
+    border-radius: 4px;
+}
+
+.title{
+    font-size: 20px;
+    margin: 10px 0;
+    border-bottom: 1px solid #bdbdbd;
+}
+.task-id{
+    font-size: 10px;
+}
+
+.details{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px auto;
+}
+.details span{
+    background-color: #ffffff;
+    font-size: 14px;
+    color: #606060;
+}
+.task-status{
+    text-transform: uppercase;
+}
+
+ .task-status.complete{
+    color: #048004;
+}
+
+.task-status.incomplete{
+    color: #bd0707;
+}
+
+
+/* task action buttons styling */
+.actionbtns-id{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+
+.btns button{
+    margin-right: 5px;
+    padding: 5px;
+    cursor: pointer;
+    color: #ffffff;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+
+.btns .edit{
+    background-color: #416aff;
+    border: 2px solid #1340e0;
+}
+.btns .edit:hover{
+    background-color: #1340e0;
+}
+
+.btns .delete{
+    background-color: #ff4141;
+    border: 2px solid #b40000;
+}
+.btns .delete:hover{
+    background-color: #b40000;
+}
+
+.btns .status{
+    background-color: #04a904;
+    border: 2px solid #048004;
+}
+
+.btns .status:hover{
+    background-color: #048004;
+}
+
+
+@media screen and (max-width:830px){
+    .task{
+        width: 100%;
+    }
+
+    .title{
+        font-size: 16px;
+    }
+    .task-id{
+        font-size: 10px;
+    }
+    
+    .details{
+        margin: 8px auto;
+        font-size: 14px;
+    }
+    .details span{
+        font-size: 12px;
+    }
+    .btns button{
+        margin-right: 3px;
+        font-size: 12px;
+        padding: 3px;
+    }  
+}

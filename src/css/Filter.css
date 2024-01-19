@@ -1,0 +1,13 @@
+.filter{
+    max-width: 800px;
+    margin: auto;
+    background-color: #ffffff;
+    padding: 20px;
+    display: flex;
+    justify-content: space-between;
+    border-radius: 3px;
+}
+
+.filter select{
+    cursor: pointer;
+}
